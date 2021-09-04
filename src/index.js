@@ -6,7 +6,11 @@ import 'index.css';
 import App from 'App';
 import reportWebVitals from 'reportWebVitals';
 
+// print store for test of redux connection
 console.log(store.getState());
+
+// dispatch for test of logger on development
+store.dispatch({ type: "HELLO" })
 
 ReactDOM.render(
   <React.StrictMode>
