@@ -6,7 +6,7 @@ import store, { history } from "redux/configureStore";
 import reportWebVitals from 'reportWebVitals';
 import I18n from "redux-i18n";
 
-import App from 'App';
+import App from 'components/App';
 import { translations } from "translation";
 import 'index.css';
 
