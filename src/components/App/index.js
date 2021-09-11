@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./styles.scss";
+import Footer from "components/Footer";
 
 function App() {
   return (
-    <div className="App">
-          Learn React
+    <div className={styles.App}>
+          <Footer/>
     </div>
   );
 }
