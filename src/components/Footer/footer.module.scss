@@ -1,0 +1,21 @@
+@import "../../config/variables";
+
+.footer {
+    max-width: $max-page-width;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin: 0 auto;
+    font-size: 14px;
+    .column {
+        .nav {
+            .list {
+                display: flex;
+                .item {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
